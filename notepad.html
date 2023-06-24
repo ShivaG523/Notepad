@@ -1,0 +1,55 @@
+<!doctype html>
+<html> 
+
+
+
+<head> 
+<title> Notepad 
+</title> 
+<link rel="stylesheet" href="notepad.css">
+</head> <body> 
+	<h2 class="n"> MY NOTEPAD </h2>
+		 <div class="control">
+        Font-style:
+        <select id="style" class="style" onchange="changeFont(this)">
+            <option value="Arial"> Arial </option>
+            <option value="Impact"> Impact </option>
+            <option value="Times New Roman"> Times New Roman </option>
+            <option value="Sans Serif"> Sans Serif </option>
+        </select>
+        &nbsp;
+        FontSize:
+        <select id="fsize" class="size" onchange="changeSize(this)">
+            <option value="8"> 8</option>
+            <option value="15"> 15 </option>
+            <option value="20"> 20 </option>
+            <option value="25"> 25 </option>
+            <option value="30"> 30 </option>
+            <option value="35"> 35 </option>
+        </select>  
+        &nbsp; 
+         &nbsp; 
+         
+        <!-- <button class="btn" id="toggle_fullscreen"><i class="material-icons">fullscreen</i></button> -->
+		<input type="button" value="Bold" class="u" onclick="Bold()">
+		<input type="button" value="Italic" class="u" onclick="Italic()">
+		<input type="button" value="underlined" class="u" onclick="underline()">   
+		</div>
+    
+        <br>
+
+<textarea placeholder="enter ur text..." Id ="text"rows="20" cols="100"></textarea>
+
+
+</textarea>
+<br>
+<DIV CLASS="footer">
+    <input type="reset" value="Reset" class="reset" onclick="reset()">
+	
+        <br>   
+    </DIV>
+<script type="text/javascript" rel="NODE.JS">
+    
+</script>
+</body>
+</html> 
